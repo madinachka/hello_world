@@ -3,12 +3,16 @@
 public class hello {
 
     public static void main(String [] args) {
-
-
-	// added  line	
-
-        System.out.println("Hello Class!");
-
+	    
+     string s;
+                
+         Scanner in = new Scanner(System.in);
+        
+        System.out.println("Please enter your name");
+          s = in.nextLine();
+        
+        System.out.println("Hello " + s + " my name is Madina");
+       
 
 
     }
